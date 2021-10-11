@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <section class="code">
+                <h1>Problem Statement 2: </h1>
+                    <hr/>
+                <h5>Q. Write a code in any programming language that counts the digits in a number.</h5>
+                <article>   
+                    <pre>
+                        <code>
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+     
+int countDigit(<var>n</var>)
+{
+    int <var>count</var> = 0;
+    while (<var>n</var> != 0)
+    {
+        <var>n</var> = <var>n</var> / 10;
+        ++<var>count</var>;
+    }
+return <var>count</var>;
+}
+     
+int main(void)
+{
+    int <var>n</var>;
+    cout << "Enter Number: ";
+    cin >> <var>n</var>;
+    cout << "Number of digits: " << countDigit(<var>n</var>);
+    return 0;
+}
+                        </code>
+                    </pre>
+                  
+                </article>
+            </section>
+            <section class="in-out">
+                <pre>
+                    <kbd>
+
+input > Enter Number: 1234
+
+output > Number of digits: 4
+
+                    </kbd>
+                </pre>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(211, 211, 211);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    height: 100vh;
+}
+
+div.content {
+  width: auto;
+  margin: 10px 80px;
+}
+
+nav.brand {
+  text-align: center;
+  font-size: 24px;
+}
+
+section.quote {
+  height: 20vh;
+  width: 33%;
+  border: 1px black solid;
+  border-radius: 3px;
+  padding: 30px;
+  margin: 30px;
+}
+
+section quote {
+  font-size: 16px;
+  font-style: italic;
+}
+
+section blockquote {
+  margin-top: 15px;
+  text-align: right;
+}
+
+content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
